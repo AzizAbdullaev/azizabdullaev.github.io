@@ -1,0 +1,1281 @@
+@font-face {
+	font-family: "Lato-Bold";
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+	font-family: "Lato-Regular";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+	font-family: "Lato-Italic";
+    src: url(../fonts/Lato-LightItalic.ttf);
+}
+@font-face {
+	font-family: "Lato-Light";
+    src: url(../fonts/Lato-Light.ttf);
+}
+h5{
+    text-transform: uppercase;
+}
+section{
+    width: 940px;
+    margin: 0 auto;
+	padding: 0;
+}
+header{
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: "Lato-Bold";
+}
+nav{
+    padding-top: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-around;
+        -ms-flex-pack: space-around;
+            justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 25%;
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #4d4959;
+}
+nav a:hover{
+    color: #64c29e;
+}
+.mobile-menu{
+    padding-top: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 100px;
+}
+.mobile-menu a{
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #848789;
+}
+.mobile-menu a:hover{
+    color: #64c29e;
+}
+.menu-icon{
+    font-size: 50px;
+}
+.navbar a{
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #848789;
+    margin: 30px 0;
+}
+.navbar a:hover{
+    color: #64c29e;
+}
+.navbar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f2f4f9;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-transition: font-size 3s, color 2s;
+    -o-transition: font-size 3s, color 2s;
+    transition: font-size 3s, color 2s;
+}
+.main{
+    background-image: url(../bicycle-img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Lato-Regular";
+    color: #848789;
+    line-height: 2;
+}
+h5{
+    color: #353738;
+    font-family: "Lato-Bold";
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.about-us{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f7f7f7;
+}
+.about-us h3{
+    padding-top: 180px;
+    color: #353738;
+    font-family: "Lato-Bold";
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.about-us h3::before{
+    content: "";
+    background-image: url(../bicycle-img/cog-icon.png);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 117px auto 33px auto;
+    width: 52px;
+    height: 43px;
+}
+.about-us p{
+    margin-bottom: 140px;
+}
+.about-work p{
+    font-size: 14px;
+    text-align: justify;
+}
+hr{
+    margin-top: 41px;
+    margin-bottom: 27px;
+    width: 50px;
+    border-color: #ffffff;
+    border-bottom-width: 0;
+}
+.work-first-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 600px;
+}
+.wrapper{
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 33.33333333%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.arrow{
+    background: url(../bicycle-img/arrow.png) no-repeat center center;
+    width: 21px;
+    height: 9px;
+    margin: 0px auto 0 auto;
+}
+.work-one{
+    background-image: url(../bicycle-img/left-box.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    width: 66.66666667%;
+}
+.work-two{
+    height: 46.4%;
+    position: relative;
+    margin: 0 78px;
+}
+.work-two img{
+    margin-top: 65px;
+}
+.work-two h5::before{
+    content: "";
+    background-image: url(../bicycle-img/frame-icon.png);
+    position: absolute;
+    top: -62px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 41px;
+    height: 30px;
+}
+.work-tree{
+    background-image: url(../bicycle-img/seat-red.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33.33333333%;
+}
+.work-tree img{
+    width: 100%;
+}
+.work-second-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    height: 600px;
+}
+.work-four{  
+    height: 46.4%;
+    margin: 0 78px;
+    position: relative;
+}
+.wrapper h5{
+    margin-top: 121px;
+}
+.work-four h5::before{
+    content: "";
+    background-image: url(../bicycle-img/mech-icon.png);
+    position: absolute;
+    top: -62px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 32px;
+    height: 32px;
+}
+.work-five{
+    background-image: url(../bicycle-img/seat-black.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33.33333333%;
+}
+.work-six{
+    background-image: url(../bicycle-img/left-box-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    width: 66.66666667%;
+}
+.work-third-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    height: 600px;
+}
+.work-seven{
+    background-image: url(../bicycle-img/red-frame.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 33.33333333%;
+}
+.work-eight{
+    height: 279px;
+    margin: 0 78px;
+    position: relative;
+}
+.work-eight h5::before{
+    content: "";
+    background-image: url(../bicycle-img/front-icon.png);
+    position: absolute;
+    top: -62px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 23px;
+    height: 41px;
+}
+.work-nine{
+    background-image: url(../bicycle-img/chrome-wheels.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33.33333333%;
+}
+.work-ten{
+    background-image: url(../bicycle-img/red-bike.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 33.33333333%;
+}
+.comments{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.slider{
+    position: relative;
+    padding-top: 123px;
+    padding-bottom: 180px;
+}
+.comments a{
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #4d4959;
+    font-size: 20px;
+}
+.comments a:hover{
+    color: #64c29e;
+}
+.slide{
+    position: relative;
+}
+.comments h4{
+    margin-top: 45px;
+    font-family: "Lato-Bold";
+}
+.comments h4::before{
+    content: "";
+    background-image: url(../bicycle-img/icon.png);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 32px;
+    height: 27px;
+}
+.comments p{
+    font-size: 22px;    
+    font-family: "Lato-Italic";
+}
+#shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.first-section-shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+}
+.second-section-shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+}
+.container{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 67%;
+}
+.mini-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 267px;
+}
+.leather{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+.leather::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.leather:hover::before{
+    opacity: 1;
+}
+.leather:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.leather:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -40px;
+    text-align: center;
+    z-index: 2;
+}
+.text h5 {
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-top: 50px;
+  }
+.text h5::before{
+    content: url(../bicycle-img/white-bike-icon.png);
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 51px;
+    height: 30px;
+    opacity: 0;
+}
+.custom{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+.custom::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.custom:hover::before{
+    opacity: 1;
+}
+.custom:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.custom:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.lim-edition{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 267px;
+}
+.lim-edition::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.lim-edition:hover::before{
+    opacity: 1;
+}
+.lim-edition:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.lim-edition:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.bags{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33.1%;
+}
+.bags::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.bags:hover::before{
+    opacity: 1;
+}
+.bags:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.bags:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.bikes{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33%;
+}
+.bikes::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.bikes:hover::before{
+    opacity: 1;
+}
+.bikes:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.bikes:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.shop-now{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 267px;
+}
+.shop-now::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.shop-now:hover::before{
+    opacity: 1;
+}
+.shop-now:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.shop-now:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.seats{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.seats::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.seats:hover::before{
+    opacity: 1;
+}
+.seats:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.seats:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.accessories{
+    position: relative;
+    overflow: hidden;
+    background-image: url(../bicycle-img/l8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.accessories::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(116, 187, 158, 0.8);
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.accessories:hover::before{
+    opacity: 1;
+}
+.accessories:hover .text h5{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.accessories:hover .text h5::before{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.discovery-shop{
+    background-color: #282f35;
+}
+.wrapper-shop{
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.wrapper-shop a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-shop{  
+    border: 1px solid #ffffff;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    padding: 18px 80px;
+    color: white;
+    letter-spacing: 0.2em;
+    display: inline-block;
+}
+.btn-shop:hover {
+	color: #64c29e;
+	border: 1px solid #64c29e;
+}
+.wrapper-email{
+    text-align: center;
+    padding-bottom: 112px;
+}
+.wrapper-email h2{
+    margin-top: 233px;
+    font-family: "Lato-Italic";
+    position: relative;
+    color: #848789;
+}
+.wrapper-email h2::before{
+    content: "";
+    background-image: url(../bicycle-img/logo.png);
+    position: absolute;
+    top: -125px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 94px;
+    height: 85px;
+}
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+form input{
+    width: 372px;
+    border: 1px solid #d3d7d9;
+    font-family: "Lato-Italic";
+    padding-left: 28px;
+    color: #848789;
+}
+form a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.btn-email{
+    padding: 25px 45px;
+    font-family: "Lato-Light";
+    font-size: 18px;
+    background-color: #64c29e;
+    color: white;
+}
+footer{
+    background-color: #f7f7f7;
+    color: #848789;
+    font-family: "Lato-Italic";
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+footer section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 100px 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+footer b{
+    font-family: "Lato-Bold";
+}
+.social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.social a:hover{
+    opacity: 0.5;
+}
+.tweetter{
+    background-image: url(../bicycle-img/tweet.png);
+    height: 34px;
+    width: 35px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+}
+.facebook{
+    background-image: url(../bicycle-img/fb.png);
+    height: 34px;
+    width: 35px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+}
+.pinterest{
+    background-image: url(../bicycle-img/print.png);
+    height: 34px;
+    width: 35px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+}
+button{
+    display: none;
+}
+
+/* XS */
+@media  (max-width: 576px){
+	nav{
+        display: none;
+    }
+    .mobile-menu{
+        margin: 0 50px;
+    }
+    .work-first-section{
+        display: flex;
+        height: 100%;
+    }
+    .work-one{
+        height: 300px;
+        width: 100%;
+    }
+    .work-two{
+        height: 250px;
+    }
+    .work-tree{
+        height: 150px;
+        width: 100%;
+    }
+    .work-four{
+        height: 250px;
+    }
+    .work-second-section{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+            -ms-flex-direction: inherit;
+                flex-direction: inherit;
+    }
+    .work-five{
+        height: 150px;
+    }
+    .work-six{
+        width: 100%;
+        height: 300px;
+    }
+    .work-third-section{
+        height: 100%;
+        display: flex;
+        width: 100%;
+    }
+    .work-seven{
+        width: 100%;
+        height: 500px;
+    }
+    .work-eight{
+        height: 250px;
+    }
+    .work-nine{
+        height: 150px;
+    }
+    .work-ten{
+        width: 100%;
+        height: 500px;
+    }
+    hr{
+        display: inherit;
+    }
+    section{
+        width: 250px;
+    }
+    #shop{
+        display: block;
+    }
+    .first-section-shop{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .second-section-shop{
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .mini-container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height: 600px;
+    }
+    .leather{
+        height: 250px;
+    }
+    .custom{
+        height: 350px;
+    }
+    .lim-edition{
+        height: 350px;
+        background-position: inherit;
+    }
+    .bags{
+        width: 100%;
+        height: 400px;
+    }
+    .bikes{
+        width: 100%;
+        height: 500px;
+    }
+    .seats{
+        height: 350px;
+    }
+    .accessories{
+        height: 350px;
+    }
+    .social{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    nav{
+        display: none;
+    }
+    .work-first-section{
+        display: initial;
+    }
+    .work-one{
+        height: 600px;
+        width: 100%;
+    }
+    .work-two{
+        height: 200px;
+    }
+    .work-tree{
+        height: 400px;
+        width: 100%;
+    }
+    .work-four{
+        height: 200px;
+    }
+    .work-second-section{
+        display: initial;
+        height: 600px;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+        height: 600px;
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+            -ms-flex-direction: inherit;
+                flex-direction: inherit;
+    }
+    .work-five{
+        height: 490px;
+    }
+    .work-six{
+        width: 100%;
+        height: 600px;
+    }
+    .work-third-section{
+        height: 600px;
+        display: initial;
+        width: 100%;
+    }
+    .work-seven{
+        width: 100%;
+        height: 1000px;
+    }
+    .work-eight{
+        height: 200px;
+    }
+    .work-nine{
+        height: 400px;
+    }
+    .work-ten{
+        width: 100%;
+        height: 1000px;
+    }
+    hr{
+        display: none;
+    }
+    section{
+        width: 525px;
+    }
+    #shop{
+        display: block;
+    }
+    .first-section-shop{
+        width: 100%;
+    }
+    .second-section-shop{
+        width: 100%;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 991px) {
+	nav{
+        display: none;
+    }
+    .work-first-section{
+        display: initial;
+    }
+    .work-one{
+        height: 600px;
+        width: 100%;
+    }
+    .work-two{
+        height: 200px;
+    }
+    .work-tree{
+        height: 400px;
+        width: 100%;
+    }
+    .work-four{
+        height: 200px;
+    }
+    .work-second-section{
+        display: initial;
+        height: 600px;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+        height: 600px;
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+            -ms-flex-direction: inherit;
+                flex-direction: inherit;
+    }
+    .work-five{
+        height: 490px;
+    }
+    .work-six{
+        width: 100%;
+        height: 600px;
+    }
+    .work-third-section{
+        height: 600px;
+        display: initial;
+        width: 100%;
+    }
+    .work-seven{
+        width: 100%;
+        height: 1000px;
+    }
+    .work-eight{
+        height: 200px;
+    }
+    .work-nine{
+        height: 400px;
+    }
+    .work-ten{
+        width: 100%;
+        height: 1000px;
+    }
+    hr{
+        display: inherit;
+    }
+    section{
+        width: 700px;
+    }
+    #shop{
+        display: block;
+    }
+    .first-section-shop{
+        width: 100%;
+    }
+    .second-section-shop{
+        width: 100%;
+    }
+}
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1199px) {
+	nav{
+        display: none;
+    }
+    .work-first-section{
+        display: initial;
+    }
+    .work-one{
+        height: 600px;
+        width: 100%;
+    }
+    .work-two{
+        height: 200px;
+    }
+    .work-tree{
+        height: 400px;
+        width: 100%;
+    }
+    .work-four{
+        height: 200px;
+    }
+    .work-second-section{
+        display: initial;
+        height: 600px;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+        height: 600px;
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+            -ms-flex-direction: inherit;
+                flex-direction: inherit;
+    }
+    .work-five{
+        height: 490px;
+    }
+    .work-six{
+        width: 100%;
+        height: 600px;
+    }
+    .work-third-section{
+        height: 600px;
+        display: initial;
+        width: 100%;
+    }
+    .work-seven{
+        width: 100%;
+        height: 1000px;
+    }
+    .work-eight{
+        height: 200px;
+    }
+    .work-nine{
+        height: 400px;
+    }
+    .work-ten{
+        width: 100%;
+        height: 1000px;
+    }
+    hr{
+        display: inherit;
+    }
+}
+
+/* LG */
+@media (min-width: 1200px) {
+    .mobile-menu{
+        display: none;
+    }
+    
+}
+@media (mix-width: 1520px) {
+    hr{
+        display: none;
+    }
+}
