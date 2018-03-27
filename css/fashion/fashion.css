@@ -367,7 +367,7 @@ button{
 }
 .mini-slider{
     position: relative;
-    background-image: url(../../img/fashion/5.jpg);
+    background-image: url(../../img/fashion/5.JPG);
     height: 512px;
     -webkit-background-size: cover;
             background-size: cover;
@@ -468,7 +468,7 @@ button{
             justify-content: flex-end;
 }
 .category2{
-    background-image: url(../../img/fashion/4.JPG);
+    background-image: url(../../img/fashion/4.jpg);
     width: 25%;
     -webkit-background-size: cover;
             background-size: cover;
