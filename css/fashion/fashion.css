@@ -446,7 +446,7 @@ button{
             justify-content: flex-end;
 }
 .mini-slider3{
-    background-image: url(../../img/fashion/5-3.jpg);
+    background-image: url(../../img/fashion/5-3.JPG);
     -webkit-background-size: cover;
             background-size: cover;
     background-position: center;
@@ -468,7 +468,7 @@ button{
             justify-content: flex-end;
 }
 .category2{
-    background-image: url(../../img/fashion/4.jpg);
+    background-image: url(../../img/fashion/4.JPG);
     width: 25%;
     -webkit-background-size: cover;
             background-size: cover;
@@ -1123,4 +1123,6 @@ hr{
   .arrow-min{
       display: none;
   }
+  .tools-m{
+      display: none;
 }
